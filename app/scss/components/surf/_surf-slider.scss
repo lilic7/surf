@@ -1,44 +1,51 @@
-.surf-slider{
+.surf-slider {
   display: flex;
   margin-top: 110px;
 
-  //.slick-slide:nth-child(4n+1){
-  //  .surf-slider__item{
-  //    margin-top: 32px;
-  //  }
-  //}
-  //.slick-slide:nth-child(4n+3){
-  //  .surf-slider__item{
-  //    margin-top: 89px;
-  //  }
-  //}
+  .slick-slide:nth-child(4n+1) {
+    .surf-slider__item {
+      margin-top: 32px;
+    }
+  }
 
-  &__item{
+  .slick-slide:nth-child(4n+3) {
+    .surf-slider__item {
+      margin-top: 89px;
+    }
+  }
+
+  &__item {
     position: relative;
-    //&::before{
-    //  content: "";
-    //  opacity: 1;
-    //  width: 100%;
-    //  height: 100%;
-    //  background: rgba(#1C2121, 0.85);
-    //  position: absolute;
-    //  top:0;
-    //  left: 0;
-    //  transition: opacity .2s ease-out;
-    //}
+    width: 25%;
+    height: 750px;
+    &::before{
+      content: "";
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      background: rgba(#1C2121, 0.85);
+      position: absolute;
+      top:0;
+      left: 0;
+      transition: opacity .2s ease-out;
+    }
 
-    &:hover{
-      &::before{
+    &:hover {
+      &::before {
         opacity: 0.5;
       }
-      .link-btn{
+
+      .link-btn {
         display: block;
       }
     }
-    .item-img{
+
+    .item-img {
       width: 100%;
+      height: 750px;
     }
-    .item-title{
+
+    .item-title {
       font-weight: 800;
       font-size: 40px;
       line-height: 36px;
@@ -47,26 +54,38 @@
       left: 40px;
       max-width: 151px;
     }
-    .item-subtitle{
+
+    .item-subtitle {
       font-size: 18px;
       line-height: 22px;
       letter-spacing: 8px;
       transform: rotate(-90deg);
       transform-origin: top left;
-      position: absolute;
-      left: 38px;
-      bottom: 35px;
+      padding-left: 80px;
+      padding-top: 38px;
       white-space: nowrap;
     }
   }
-  .slider-arrows{
+
+  .slider-arrows {
     top: -60px;
     opacity: .25;
     transition: opacity .2s ease-out;
 
-    &:hover{
+    &:hover {
       opacity: 1;
     }
   }
+
+  .link-btn{
+    display: none;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+  }
+
+
 }
 
