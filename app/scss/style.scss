@@ -1,13 +1,16 @@
 @import "vars";
 @import "libs";
 @import "fonts";
+@import "mixins";
 @import "global";
 
 @import "components/header/header";
 @import "components/header/slider";
 @import "components/header/menu";
 
-@import "components/surf/surf";
+@import "components/surf/surf-map";
+@import "components/surf/surf-slider";
 
+@import "components/travel/travel";
 
 @import "media";

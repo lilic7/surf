@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,500,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -94,12 +94,10 @@
     <div class="header__slider">
         <div class="header__slider-item slider-item">
             <div class="slider-item__info">
-                <div class="slider-item__info-subtitle subtitle-left">Surf</div>
+                <div class="slider-item__info-subtitle subtitle-top">Surf</div>
                 <div class="slider-item__info-title">North Shore</div>
-                <div class="slider-item__description description-o description-left">
-                    <div class="slider-item__info-subtext subtitle__top subtitle__left">Condition</div>
-                    <div class="slider-item__info-text subtext subtitle__bottom">Radical</div>
-                </div>
+                <div class="slider-item__info-subtext subtitle-top">Condition</div>
+                <div class="slider-item__info-text subtitle-bottom">Radical</div>
                 <a href="#" class="slider-item__info-link">
                     <img src="images/arrows-right.svg" alt="">
                 </a>
@@ -107,10 +105,10 @@
         </div>
         <div class="header__slider-item slider-item">
             <div class="slider-item__info">
-                <div class="slider-item__info-subtitle subtitle-left">Surf</div>
+                <div class="slider-item__info-subtitle subtitle-top">Surf</div>
                 <div class="slider-item__info-title">South Shore</div>
-                <div class="slider-item__info-subtext subtitle-left">Condition</div>
-                <div class="slider-item__info-text subtext">Radical</div>
+                <div class="slider-item__info-subtext subtitle-top">Condition</div>
+                <div class="slider-item__info-text subtitle-bottom">Radical</div>
                 <a href="#" class="slider-item__info-link">
                     <img src="images/arrows-right.svg" alt="">
                 </a>
@@ -118,10 +116,10 @@
         </div>
         <div class="header__slider-item slider-item">
             <div class="slider-item__info">
-                <div class="slider-item__info-subtitle subtitle-left">Surf</div>
+                <div class="slider-item__info-subtitle subtitle-top">Surf</div>
                 <div class="slider-item__info-title">West Shore</div>
-                <div class="slider-item__info-subtext subtitle-left">Condition</div>
-                <div class="slider-item__info-text subtext">Radical</div>
+                <div class="slider-item__info-subtext subtitle-top">Condition</div>
+                <div class="slider-item__info-text subtitle-bottom">Radical</div>
                 <a href="#" class="slider-item__info-link">
                     <img src="images/arrows-right.svg" alt="">
                 </a>
@@ -129,10 +127,10 @@
         </div>
         <div class="header__slider-item slider-item">
             <div class="slider-item__info">
-                <div class="slider-item__info-subtitle subtitle-left">Surf</div>
+                <div class="slider-item__info-subtitle subtitle-top">Surf</div>
                 <div class="slider-item__info-title">East Shore</div>
-                <div class="slider-item__info-subtext subtitle-left">Condition</div>
-                <div class="slider-item__info-text subtext">Radical</div>
+                <div class="slider-item__info-subtext subtitle-top">Condition</div>
+                <div class="slider-item__info-text subtitle-bottom">Radical</div>
                 <a href="#" class="slider-item__info-link">
                     <img src="images/arrows-right.svg" alt="">
                 </a>
@@ -166,50 +164,339 @@
         </div>
     </div>
 </header>
-<section class="surf section-o">
-    <div class="surf__title title-o" data-title="surf">surf</div>
-    <div class="surf__subtitle description-o description-left">
-        <div class="subtitle__top subtitle__left">Current location</div>
-        <div class="subtitle__bottom">California | USA</div>
-    </div>
 
-    <div class="surf__world-map--wrapper">
-        <img src="images/world-map.svg" alt="World map" class="world-map">
-        <ul class="markers__list">
-            <li>
-                <div class="location">
-                    <div class="location-title">Airlie Beach</div>
-                    <div class="location-name">Australia</div>
-                    <div class="location-data">
-                        <div class="location-data__item">
-                            <div class="location-data__icon"></div>
-                            <div class="location-data__info">9 - 13</div>
-                            <div class="location-data__text">Surf (FT)</div>
+<section class="surf section-o">
+    <div class="container-o">
+        <div class="surf__title title-o" data-title="surf">surf</div>
+        <div class="surf__subtitle subtitle">
+            <div class="subtitle-top">Current location</div>
+            <div class="subtitle-bottom">California <span>|</span> USA</div>
+        </div>
+        <div class="surf__world-map">
+            <div class="surf__world-map--inner">
+                <img src="images/world-map.svg" alt="World map" class="world-map">
+                <div class="surf__map-item map-point-1">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
                         </div>
-                        <div class="location-data__item">
-                            <div class="location-data__icon"></div>
-                            <div class="location-data__info">+2.3</div>
-                            <div class="location-data__text">Tide (FT)</div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
                         </div>
-                        <div class="location-data__item">
-                            <div class="location-data__icon"></div>
-                            <div class="location-data__info">4 SE</div>
-                            <div class="location-data__text">Wind (KTS)</div>
+                        <div class="location-coords">34.0501 N -118.2446 W</div>
+                    </div>
+                    <span class="map-point"></span>
+                </div>
+
+                <div class="surf__map-item map-point-2">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
+                            <div class="location-coords">34.0501 N -118.2446 W</div>
                         </div>
                     </div>
+                    <span class="map-point"></span>
                 </div>
-                <a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
+                <div class="surf__map-item map-point-3">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
+                            <div class="location-coords">34.0501 N -118.2446 W</div>
+                        </div>
+                    </div>
+                    <span class="map-point"></span>
+                </div>
+                <div class="surf__map-item map-point-4">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
+                            <div class="location-coords">34.0501 N -118.2446 W</div>
+                        </div>
+                    </div>
+                    <span class="map-point"></span>
+                </div>
+                <div class="surf__map-item map-point-5">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
+                            <div class="location-coords">34.0501 N -118.2446 W</div>
+                        </div>
+                    </div>
+                    <span class="map-point"></span>
+                </div>
+                <div class="surf__map-item map-point-6">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
+                            <div class="location-coords">34.0501 N -118.2446 W</div>
+                        </div>
+                    </div>
+                    <span class="map-point"></span>
+                </div>
+                <div class="surf__map-item map-point-7">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
+                            <div class="location-coords">34.0501 N -118.2446 W</div>
+                        </div>
+                    </div>
+                    <span class="map-point"></span>
+                </div>
+                <div class="surf__map-item map-point-8">
+                    <div class="location">
+                        <div class="location-title">Airlie Beach
+                            <a href="#" class="location-link">
+                                <img src="images/arrows-right.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="location-name">Australia</div>
+                        <div class="location-data">
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-1.svg" alt=""></div>
+                                <div class="location-data__info">9 - 13</div>
+                                <div class="location-data__text">Surf (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-2.svg" alt=""></div>
+                                <div class="location-data__info">+2.3</div>
+                                <div class="location-data__text">Tide (FT)</div>
+                            </div>
+                            <div class="location-data__item">
+                                <div class="location-data__icon"><img src="images/surf-icon-3.svg" alt=""></div>
+                                <div class="location-data__info">4 SE</div>
+                                <div class="location-data__text">Wind (KTS)</div>
+                            </div>
+                            <div class="location-coords">34.0501 N -118.2446 W</div>
+                        </div>
+                    </div>
+                    <span class="map-point"></span>
+                </div>
+            </div>
+        </div>
+        <div class="surf-slider">
+            <div class="surf-slider__item">
+                <img src="images/surf-slide-1.jpg" class="item-img" alt="">
+                <div class="item-title">Malibu Beach</div>
+                <div class="item-subtitle">California | USA</div>
+                <a href="#" class="link-btn">View <span>Surf</span></a>
+            </div>
+            <div class="surf-slider__item">
+                <img src="images/surf-slide-2.jpg" class="item-img" alt="">
+                <div class="item-title">Airlie Beach</div>
+                <div class="item-subtitle">Queensland | Australia</div>
+                <a href="#" class="link-btn">View <span>Surf</span></a>
+            </div>
+            <div class="surf-slider__item">
+                <img src="images/surf-slide-3.jpg" class="item-img" alt="">
+                <div class="item-title">Cloud Nine</div>
+                <div class="item-subtitle">Siargao | Philippines</div>
+                <a href="#" class="link-btn">View <span>Surf</span></a>
+            </div>
+            <div class="surf-slider__item">
+                <img src="images/surf-slide-4.jpg" class="item-img" alt="">
+                <div class="item-title">Vieux Boucau</div>
+                <div class="item-subtitle">Hossegor | France</div>
+                <a href="#" class="link-btn">View <span>Surf</span></a>
+            </div>
+            <div class="surf-slider__item">
+                <img src="images/surf-slide-2.jpg" class="item-img" alt="">
+                <div class="item-title">Airlie Beach</div>
+                <div class="item-subtitle">Queensland | Australia</div>
+                <a href="#" class="link-btn">View <span>Surf</span></a>
+            </div>
+            <div class="surf-slider__item">
+                <img src="images/surf-slide-3.jpg" class="item-img" alt="">
+                <div class="item-title">Cloud Nine</div>
+                <div class="item-subtitle">Siargao | Philippines</div>
+                <a href="#" class="link-btn">View <span>Surf</span></a>
+            </div>
+            <div class="surf-slider__item">
+                <img src="images/surf-slide-4.jpg" class="item-img" alt="">
+                <div class="item-title">Vieux Boucau</div>
+                <div class="item-subtitle">Hossegor | France</div>
+                <a href="#" class="link-btn">View <span>Surf</span></a>
+            </div>
+        </div>
     </div>
 </section>
 
+<section class="travel section-o">
+    <div class="container-o">
+        <div class="travel__title title-o" data-title="travel">travel</div>
+
+        .travel__wrapper>.travel-list>.travel-list__item*3>.travel__inner>.travel-item__subtitle.subtitle+img.travel-item__image+.travel-item__location+.travel-item__details+.travel-item__book
+
+        <div class="travel__wrapper">
+            <div class="travel__subtitle subtitle">
+                <div class="subtitle-top">Shore</div>
+                <div class="subtitle-bottom">Airlie Beach <span>|</span> Australia</div>
+            </div>
+            <div class="travel__inner">
+                <div class="travel__location subtitle left">
+                    <div class="subtitle-top">Airline</div>
+                    <div class="subtitle-bottom">Virgin Australia
+                        <img src="images/location-logo.png" alt="" class="travel__location-logo">
+                    </div>
+                </div>
+            </div>
+            <div class="travel__location-details">
+                <div class="details__item">
+                    <div class="title">Destination</div>
+                    <div class="text">Queensland Australia</div>
+                </div>
+                <div class="details__item">
+                    <div class="title">Distance</div>
+                    <div class="text">7,065 Miles</div>
+                </div>
+                <div class="details__item">
+                    <div class="title">Travel Time</div>
+                    <div class="text">23 Hours <br> 5 Minutes </div>
+                </div>
+                <div class="details__item">
+                    <div class="title">Pricing</div>
+                    <div class="text">$1,976 USD <span>Round Trip</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>

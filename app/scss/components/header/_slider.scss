@@ -9,10 +9,12 @@
 
     &-subtitle {
       margin-bottom: 5px;
+      @include subtitle(left);
     }
 
     &-subtext {
       margin-bottom: 8px;
+      @include subtitle(left);
     }
 
     &-title {

@@ -1,0 +1,93 @@
+.travel{
+  &__title{
+    margin-bottom: 50px;
+  }
+}
+
+//.travel{
+//  color: #fff;
+//  &__subtitle{
+//    align-items: flex-end;
+//    margin-top: 60px;
+//  }
+//  &__wrapper{
+//    position: relative;
+//    &::after{
+//      content: "";
+//      width: 40%;
+//      height: 377px;
+//      display: block;
+//      position: absolute;
+//      bottom: 0;
+//      right: 0;
+//
+//    }
+//  }
+//  &__inner{
+//    background-image: url("../images/travel-bg.png");
+//    background-repeat: no-repeat;
+//    min-height: 780px;
+//    display: flex;
+//    align-items: flex-end;
+//    margin-top: -30px;
+//  }
+//  &__location{
+//    & .subtitle-top{
+//      margin-bottom: 0;
+//    }
+//    &-logo{
+//      margin-left: 26px;
+//    }
+//    &-details{
+//      display: flex;
+//      justify-content: space-between;
+//      width: 100%;
+//      margin-top: 70px;
+//      min-height: 195px;
+//      position: relative;
+//      &::before{
+//        content: "";
+//        background-image: url("../images/travel-plane.png");
+//        background-repeat: no-repeat;
+//        background-size: contain;
+//        width: 50%;
+//        position: absolute;
+//        top: -150%;
+//        right: 0;
+//        height: 370px;
+//      }
+//    }
+//  }
+//}
+//
+//.details__item{
+//  text-transform: uppercase;
+//  position: relative;
+//  width: 21%;
+//
+//  .title{
+//    font-size: 18px;
+//    line-height: 22px;
+//    text-align: right;
+//    letter-spacing: 8px;
+//    opacity: 0.5;
+//    transform: rotate(-90deg) translate(-16px, -203px);
+//    transform-origin: right top;
+//    width: 200px;
+//  }
+//  .text{
+//    padding-left: 38px;
+//    font-weight: 800;
+//    font-size: 40px;
+//    line-height: 36px;
+//    span{
+//      font-size: 14px;
+//      font-weight: normal;
+//      line-height: 36px;
+//      text-align: right;
+//      letter-spacing: 5.25px;
+//      opacity: 0.75;
+//      display: block;
+//    }
+//  }
+//}

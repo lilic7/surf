@@ -1,0 +1,164 @@
+.surf {
+  color: #FFFFFF;
+  background-image: url("../images/surf-bg-marker.svg");
+  background-repeat: no-repeat;
+  background-position: right 210px;
+
+  .world-map {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__subtitle {
+    align-items: flex-end;
+  }
+
+  .map-point {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    background-color: #4AF6CD;
+    box-shadow: 0 0 35px rgba(74, 246, 205, 0.837777);
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
+
+    &:hover{
+      border-top-left-radius: 0;
+    }
+
+  }
+
+  &__map-item{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    &:hover {
+      & .location {
+        display: block;
+      }
+    }
+  }
+
+  &__world-map {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__world-map--inner {
+    display: inline-block;
+    position: relative;
+  }
+}
+
+.map-point-1 {
+  top: 350px;
+  left: 5px;
+}
+
+.map-point-2 {
+  top: 295px;
+  left: 150px;
+}
+
+.map-point-3 {
+  top: 340px;
+  left: 345px;
+}
+
+.map-point-4 {
+  bottom: 115px;
+  left: 410px;
+}
+
+.map-point-5 {
+  top: 250px;
+  left: 545px;
+}
+
+.map-point-6 {
+  bottom: 65px;
+  left: 645px;
+}
+
+.map-point-7 {
+  bottom: 225px;
+  right: 392px;
+}
+
+.map-point-8 {
+  bottom: 130px;
+  right: 105px;
+}
+
+.location {
+  display: none;
+  width: 285px;
+  background-color: rgba(#0f1010, .7);
+  border-radius: 6px;
+  padding: 31px;
+  margin-bottom: 40px;
+  position: absolute;
+
+  &-coords{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    position: absolute;
+    min-width: 350px;
+    top: 80px;
+    right: -190px;
+  }
+
+  &-title {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    &::after {
+      content: "";
+      width: 80px;
+      height: 1px;
+      background-color: #4AF6CD;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  &-name {
+    line-height: 19px;
+  }
+
+  &-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+
+    &__info {
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 23px;
+      margin: 8px;
+    }
+
+    &__text {
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 12px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}

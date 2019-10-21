@@ -1,0 +1,19 @@
+@mixin subtitle($side) {
+
+  @if ($side=="left") {
+    padding-left: 103px;
+  }
+  @if ($side=="right") {
+    padding-right: 103px;
+  }
+
+  &::before {
+
+    @if ($side=="left") {
+      left: 0;
+    }
+    @if ($side=="right") {
+      right: 0;
+    }
+  }
+}
